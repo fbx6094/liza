@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.Intro {
+   height: 100vh;
+
+}
+
+.intro-image{
+  height: 60%;
+  background: url(logoshh.jpg) no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 60px;
+
+} 
+
+.phone {
+  font-family: 'Marmelad', sans-serif;
+  font-size: 30px;
+  color: #A9224F;
+  text-align: right;
+  padding-top: 24%;
+  padding-right: 40px;
+
+}
+
+.foto123{
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.fotos{
+ width: 27%;
+ position: relative;
+
+ background-color: #5A3313;
+
+}
+
+.fotos:hover .foto-img {
+  transform: translate3d(-10px, -10px, 0px);
+
+}
+
+.fotos:hover .foto-img img {
+  opacity: .1;
+
+}
+
+.fotos:hover .about-text {
+  opacity: 1;
+
+}
+
+.foto-img {
+  background: linear-gradient(to bottom, #5A3313, #D4C6AF);
+  transition: transform .3s linear;
+
+}
+
+.foto-img img {
+  display: block;
+
+  transition: opacity .1s linear;
+
+}
+
+.about-text {
+  width: 100%;
+
+  font-size: 25px;
+
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 2;
+  transform: translate3d(0, -50%, 0);
+  opacity: 0;
+  transition: opacity .2s linear;
+
+
+}
+
+.poslednie {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+
+header {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+     z-index: 3;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px #4d4343;
+}
+
+header .logo {
+    
+    transition: 0.5s;
+
+}
+
+header .logo:hover {
+  transform: scale(1.2);
+  
+}
+
+header nav ul li {
+  position: relative;
+  float: left;
+
+  z-index: 10;
+}
+
+header nav ul li a {
+  padding: 15px;
+  color: #A9224F;
+  font-size: 16px;
+  display: block;
+}
+
+header nav ul li a:hover {
+  background: #FFEBF1;
+  color: #A9224F;
+
+}
+
+nav ul li ul {
+  position: absolute;
+  left: 0;
+  width: 180px;
+  background: #fff;
+  display: none;
+
+
+}
+
+nav ul li:hover > ul {
+  display: initial;
+
+}
+
+/*first*/
+.slogan{
+  font-family: 'Shantell Sans', cursive;
+font-size: 30px;
+}
+.slogann{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 60px;
+
+
+}
+.section{
+  background: url(chokoo.jpg) no-repeat;
+position: absolute;
+  height: 93%;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  top: 105%;
+  padding: 80px;
+
+}
+.section-slogan{
+  width: 100%;
+   color: #fff;
+  text-align: left;
+
+}
+
+.subslogan{
+  color: #fff;
+  text-align: right;
+  font-family: 'Shantell Sans', cursive;
+  font-size: 30px;
+  padding-top: 40px;
+
+
+}
+
+/*first3*/
+.slogan1{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 80px;
+  color: #5A3313;
+  position: absolute;
+  top: 210%;
+  left: 42%;
+ 
+
+}
+
+.emotions {
+ width: 500px;
+ position: relative;
+margin-left: 20%;
+ justify-content: space-between;
+ margin-top: 150%;
+}
+
+.slogann1{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 40px;
+  color: #5A3313;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+ 
+
+}
+
+.section1{
+  height: 900px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px;
+
+  
+  }
+
+  .nnn {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    }
+
+.foto{
+  display: flex;
+  width: 100%;
+  
+  justify-content: space-between;
+  position: relative;
+
+  text-align: center;
+
+}
+
+.slogann12{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 30px;
+  color: #5A3313;
+  text-align: right;
+  margin-top: 100px;
+}
+  .sslogan1{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 50px;
+  color: #5A3313;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+.ccontainer1 {
+  position: absolute;
+  height: 200%;
+  width: 100%;
+
+
+
+}
+ 
+.ssection-slogan1{
+  height: 600px;
+  color: #5A3313;
+ display: flex;
+ justify-content: space-between;
+ margin-left: 10px;
+
+  text-align: left;
+  
+  font-family: 'Marmelad', sans-serif;
+  font-size: 20px;
+  
+}
+
+.sslogann1{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 25px;
+  color: #5A3313;
+  top: 70%;
+  left:10%;
+  width: 500px;
+  position: absolute;
+
+}
+
+.sslogann11 {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+}
+.podpis{
+  position: absolute;
+  z-index: 9999;
+  height: 90%;
+  top: 305%;
+  left: -10%;
+}
+@media (max-width:1200px) {
+  .intro-image{
+    width: 105%;
+    height: 70%;
+  }
+  .foto-img img {
+    width: 70%; 
+  }
+  .fotos {
+    width: 20%; 
+  }
+  .foto-img  {
+    width: 50%; 
+  }
+  .about-text{
+    width: 50%;
+  }
+
+  
+}

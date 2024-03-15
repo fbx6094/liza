@@ -8,19 +8,20 @@
 }
 
 .Intro {
-   height: 100vh;
+  height: 100vh;
 
 }
 
-.intro-image{
+.intro-image {
   height: 60%;
-  background: url(logoshh.jpg) no-repeat;
+  background: url(/images/logoshh.jpg) no-repeat;
   width: 100%;
   background-size: cover;
   background-position: top;
   margin-bottom: 60px;
 
-} 
+}
+
 
 .phone {
   font-family: 'Marmelad', sans-serif;
@@ -32,21 +33,20 @@
 
 }
 
-.foto123{
+.foto123 {
   width: 1100px;
   margin-left: auto;
   margin-right: auto;
-
   display: flex;
   justify-content: space-between;
 
 }
 
-.fotos{
- width: 27%;
- position: relative;
+.fotos {
+  width: 27%;
+  position: relative;
 
- background-color: #5A3313;
+  background-color: #5A3313;
 
 }
 
@@ -113,28 +113,28 @@
 
 
 header {
-    position: fixed;
-    top:0;
-    left: 0;
-    right: 0;
-     z-index: 3;
-    background: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 8%;
-    box-shadow: 0 5px 10px #4d4343;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+  box-shadow: 0 5px 10px #4d4343;
 }
 
 header .logo {
-    
-    transition: 0.5s;
+
+  transition: 0.5s;
 
 }
 
 header .logo:hover {
   transform: scale(1.2);
-  
+
 }
 
 header nav ul li {
@@ -167,25 +167,27 @@ nav ul li ul {
 
 }
 
-nav ul li:hover > ul {
+nav ul li:hover>ul {
   display: initial;
 
 }
 
-/*first*/
-.slogan{
+/*main*/
+.slogan {
   font-family: 'Shantell Sans', cursive;
-font-size: 30px;
+  font-size: 30px;
 }
-.slogann{
+
+.slogann {
   font-family: 'Marmelad', sans-serif;
   font-size: 60px;
 
 
 }
-.section{
-  background: url(chokoo.jpg) no-repeat;
-position: absolute;
+
+.section {
+  background: url(/images/chokoo.jpg) no-repeat;
+  position: absolute;
   height: 93%;
   width: 100%;
   background-size: cover;
@@ -194,14 +196,15 @@ position: absolute;
   padding: 80px;
 
 }
-.section-slogan{
+
+.section-slogan {
   width: 100%;
-   color: #fff;
+  color: #fff;
   text-align: left;
 
 }
 
-.subslogan{
+.subslogan {
   color: #fff;
   text-align: right;
   font-family: 'Shantell Sans', cursive;
@@ -211,59 +214,59 @@ position: absolute;
 
 }
 
-/*first3*/
-.slogan1{
+/*main3*/
+.slogan1 {
   font-family: 'Marmelad', sans-serif;
   font-size: 80px;
   color: #5A3313;
   position: absolute;
   top: 210%;
   left: 42%;
- 
+
 
 }
 
 .emotions {
- width: 500px;
- position: relative;
-margin-left: 20%;
- justify-content: space-between;
- margin-top: 150%;
+  width: 500px;
+  position: relative;
+  margin-left: 20%;
+  justify-content: space-between;
+  margin-top: 150%;
 }
 
-.slogann1{
+.slogann1 {
   font-family: 'Marmelad', sans-serif;
   font-size: 40px;
   color: #5A3313;
   font-weight: 600;
   text-align: center;
   margin-top: 30px;
- 
+
 
 }
 
-.section1{
+.section1 {
   height: 900px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 80px;
 
-  
-  }
 
-  .nnn {
-    display: flex;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-    }
+}
 
-.foto{
+.nnn {
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.foto {
   display: flex;
   width: 100%;
-  
+
   justify-content: space-between;
   position: relative;
 
@@ -271,14 +274,15 @@ margin-left: 20%;
 
 }
 
-.slogann12{
+.slogann12 {
   font-family: 'Marmelad', sans-serif;
   font-size: 30px;
   color: #5A3313;
   text-align: right;
   margin-top: 100px;
 }
-  .sslogan1{
+
+.sslogan1 {
   font-family: 'Marmelad', sans-serif;
   font-size: 50px;
   color: #5A3313;
@@ -291,31 +295,28 @@ margin-left: 20%;
   position: absolute;
   height: 200%;
   width: 100%;
-
-
-
 }
- 
-.ssection-slogan1{
+
+.ssection-slogan1 {
   height: 600px;
   color: #5A3313;
- display: flex;
- justify-content: space-between;
- margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
 
   text-align: left;
-  
+
   font-family: 'Marmelad', sans-serif;
   font-size: 20px;
-  
+
 }
 
-.sslogann1{
+.sslogann1 {
   font-family: 'Marmelad', sans-serif;
   font-size: 25px;
   color: #5A3313;
   top: 70%;
-  left:10%;
+  left: 10%;
   width: 500px;
   position: absolute;
 
@@ -326,14 +327,43 @@ margin-left: 20%;
   top: 60%;
   left: 60%;
 }
-.podpis{
+
+.podpis {
   position: absolute;
   z-index: 9999;
   height: 90%;
   top: 305%;
   left: -10%;
 }
-@media (max-width:1200px) {
+
+@media (min-width:850px) and (max-width:1250px) {
+  .foto123 {
+    width: 70%;
+    height: 80%;
+  }
+
+  #upper_cakes_el {
+    display: block;
+    width: 100%;
+    height: 35%;
+    z-index: 2;
+  }
+
+  .about-text {
+    left: -3%;
+    top: 50%;
+  }
+
+  .fotos {
+    width: 30%;
+    height: 20.5vw;
+    z-index: 1;
+  }
+
+}
+
+
+/* @media (max-width:1200px) {
   .intro-image{
     width: 105%;
     height: 70%;
@@ -352,4 +382,52 @@ margin-left: 20%;
   }
 
   
-}
+} */
+
+/* @media (max-width: 1200px) {
+  .nnn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slogann12 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .sslogan1 {
+    position: static;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .ccontainer1 {
+    position: static;
+    height: auto;
+  }
+
+  .ssection-slogan1 {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .sslogann1 {
+    position: static;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .sslogann11 {
+    position: static;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .podpis {
+    position: static;
+    top: auto;
+    left: auto;
+    height: auto;
+  } */
+/* } */
